@@ -1,21 +1,20 @@
-<head>
+<markdown>
   <title>Bài về nhà 1</title>
   <style>
-  h1 {color: black;}
-  h2 {color: black;}
-  h3 {color:#0e385f;}
+  #{color: black;}
+  ## {color: black;}
+  ### {color:#0e385f;}
   </style>
 <meta name="description" content="Baivenha" />
-<meta name="keywords" content="HTML,CSS,XML,JavaScript" />
-<meta name="author" content="duchieu" />
+<meta name="keywords" content="HTML,CSS,XML,JavaScript" " />
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 </head>
 <body>
 <table style="width:100%">
   <tr>
   <td>
-  <h1>Đăng ký</h1>
-  <h2>Luôn miễn phí.</h2>
+  <#>Đăng ký</h1>
+  <##>Luôn miễn phí.</h2>
 <table style="width:100%">
   <tr>
   <td>
@@ -212,3 +211,4 @@
   </td>
   </tr>
 </form>
+<markdown>
