@@ -1,7 +1,6 @@
+<title>btvn</title>
 # Tạo tài khoản mới
 ## Miễn phí và luôn như vậy
-
-<title>btvn</title>
 <script>
 function checkinformation(){
 var ae = document.forms["create"]["fname"].value;
