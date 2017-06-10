@@ -18,6 +18,11 @@ var cf = document.forms["create"]["sdtoremail"].value;
         alert("Hãy điền số điện thoại hoặc Email!");
         return false;
 		}
+var hi = document.forms["create"]["password"].value;
+if (hi == "")
+		alert("Hãy điền mật khẩu!");
+		return false;
+}
 var di = document.forms["create"]["bday"].value;
 if (di ==""){
 		alert("Hãy chọn ngày sinh!");
@@ -38,11 +43,6 @@ if (gato ==""){
 		alert("Hãy chọn giới tính!")
 		return false;
 	}
-var hi = document.forms["create"]["password"].value;
-if (hi == "")
-		alert("Hãy điền mật khẩu!");
-		return false;
-}
 </script>
 họ và tên: <br>
 <form name="create" onsubmit="return checkinformation()">
