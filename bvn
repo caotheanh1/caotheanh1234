@@ -10,6 +10,11 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 </head>
 <body>
+<form action="/action_page.php">
+  Username: <input type="text" name="usrname" required>
+  <input type="submit">
+</form>
+<p><strong>Note:</strong> The required attribute of the input tag is not supported in Internet Explorer 9 and earlier versions, or in Safar
 <table style="width:100%">
   <tr>
   <td>
@@ -25,7 +30,10 @@
   <form action="/action_page.php">
   <input type="text" name="Số di động hoặc email" placeholder="Số di động hoặc email"><br>
 </form> 
-  </form>
+ <form action="/action_page.php">
+  Username: <input type="text" name="usrname" required>
+  <input type="submit">
+</form> 
 <form action="/action_page.php">
   <input type="password" name="Mật khẩu mới" placeholder="Mật khẩu mới"><br>
 </form> 
