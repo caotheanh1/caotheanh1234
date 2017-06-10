@@ -6,12 +6,12 @@
 function checkinformation(){
 var ae = document.forms["create"]["fname"].value;
 if (ae == "") {
-        alert("Hãy điền tên!");
+        alert("Hãy điền họ!");
         return false;
 		}
 var br = document.forms["create"]["lname"].value;
 if (br == "") {
-        alert("Hãy điền họ! ");
+        alert("Hãy điền tên! ");
         return false;
 		}
 var cf = document.forms["create"]["sdtoremail"].value;
@@ -21,27 +21,27 @@ var cf = document.forms["create"]["sdtoremail"].value;
 		}
 var di = document.forms["create"]["bday"].value;
 if (di ==""){
-		alert("Hãy chọn ngày sinh!");
+		alert("Hãy điền mật khẩu!");
 		return false;
 	}
 var en = document.forms["create"]["bmonth"].value;
 if (en ==""){
-		alert("Hãy chọn tháng sinh!");
+		alert("Hãy chọn ngày sinh!");
 		return false;
 	}
 var fa = document.forms["create"]["byear"].value;
 if (fa ==""){
-		alert("Hãy chọn năm sinh!");
+		alert("Hãy chọn tháng sinh!");
 		return false;
 	}
 var gato = document.forms["create"]["gender"].value;
 if (gato ==""){
-		alert("Hãy chọn giới tính!")
+		alert("Hãy chọn năm sinh!")
 		return false;
 	}
 var hi = document.forms["create"]["password"].value;
 if (hi == "")
-		alert("Hãy điền mật khẩu!");
+		alert("Hãy chọn giới tính!");
 		return false;
 }
 </script>
